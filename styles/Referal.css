@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+title{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.referrals-container {
+    margin-top: 20px;
+}
+
+.referral-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.referral-card h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.referral-card p {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}

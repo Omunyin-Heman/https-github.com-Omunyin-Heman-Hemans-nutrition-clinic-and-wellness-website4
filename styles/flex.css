@@ -1,0 +1,300 @@
+body{
+    background-image: url('');
+    background-color: var(#dddddd);
+    background-blend-mode: screen;
+    background-size: contain;
+    padding-bottom: 2000px;
+    background-position: center;
+    font-family: roboto,arial;
+    margin: 0px;
+    padding-top: 100px;
+}
+.header{
+     display: flex;
+     flex-wrap: nowrap;
+     align-items: center;
+     justify-content: space-around;
+     margin-bottom: 200px;
+     border: 2px;
+     border-color: blueviolet;
+     background-color: coral;
+     padding-right: 100px;
+     padding-left: 100px;
+     
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 60px;
+
+   }
+   .horizontal line{
+    border: 6px;
+    border-color: #e72214;
+    margin-top: 16px;
+   }
+.image1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.title{
+    display: inline-block;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+}
+.left-section{
+    display: inline-block;
+}
+.middle-section{
+    display: flex;
+   flex-wrap: nowrap;
+   position: relative;
+}
+.right-section{
+    display: flex;
+     flex-wrap: nowrap;
+     align-items: center;
+     justify-content: space-around;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
+.icon-png{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+}
+.Home,
+.Services,
+.Training,
+.case,
+.resources,
+.about,
+.More{
+    padding: 12px;
+    margin: 8px;
+    border: chartreuse 2px none;
+    border-radius: 4px;
+    color: white;
+    background: black;
+    font-weight: bold;
+    font-size: large;
+}
+.case2{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.home2{
+    color: white;
+    text-decoration: none;
+}
+.Home:hover {
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 150px;
+    transition: 2s;
+}
+.dropdown-menu a{
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+    transition: 2s;
+}
+.dropdown-menu a:hover{
+    background-color: white;
+    transition: 2s;
+}
+.Services1:hover .dropdown-menu{
+    position: absolute;
+    display: block;
+    transition: 2s;
+}
+.Services:hover {
+    display: block;
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+.Training:hover{
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+.case:hover{
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.resources:hover{
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+.about:hover{
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+.More:hover {
+    background-color: brown;
+    color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+.details{
+    background-color: grey;
+    color: blue;
+    width: 400px;
+    font-size: large;
+    font-family: roboto,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-display: inherit;
+    align-items: center;
+}
+.main-body{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.about1{
+    background-color: brown;
+    color: blue;
+    font-family: roboto,Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+.Statement{
+    display: inline-block;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-display: inherit;
+    margin-left: 200px;
+}
+.appointment-info{
+    background-color: brown;
+    color: yellowgreen;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif, roboto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+::placeholder{
+    font-size: 16px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.Nairobi-practice{
+    background-color: mediumspringgreen;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border-style: solid;
+    border-color: #e72214;
+    margin-left: 250px;
+}
+.footer1 {
+    background-color: blueviolet;
+    padding: 30px;
+    font-size: larger;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer2 {
+    background-color: rgb(8, 143, 19);
+    padding: 30px;
+    font-size: larger;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.appointment-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.practioner{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    background-color: #e72214;
+}
+.practioner{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    background-color: #e72214;
+}
+.icon-png{
+    height: 25px;
+    width: 25px;
+   align-items: center;
+   border: none;
+}
+/* Targeting specific Android phones */
+@media (max-width: 414px) {
+    /* Styles for smaller Android devices */
+    /* Example: targeting devices like Google Pixel */
+}
+
+@media (max-width: 360px) {
+    /* Styles for medium-sized Android devices */
+    /* Example: targeting devices like Samsung Galaxy S10 */
+}
+
+@media (max-width: 320px) {
+    /* Styles for older or smaller Android devices */
+    /* Example: targeting devices like older Samsung Galaxy models */
+}
+/*Example of increasing touch target size */
+a, button {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 10px;
+    /* Adjust padding for better touch interaction */
+}
+/* Example of responsive font sizes */
+body {
+    font-size: 16px; /* Base font size */
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+}

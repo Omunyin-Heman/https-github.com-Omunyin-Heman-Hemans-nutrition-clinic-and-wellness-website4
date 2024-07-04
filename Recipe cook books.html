@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutritional Recipe Cookbook</title>
+    <link rel="stylesheet" href="styles/Recipe cook books.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nutritional Recipe Cookbook</h1>
+        <div class="filter-container">
+            <label for="category-filter">Filter by Category:</label>
+            <select id="category-filter">
+                <option value="all">All</option>
+                <option value="low-calorie">Low-Calorie</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="keto">Keto-Friendly</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </div>
+        <div id="recipe-container" class="recipe-container">
+            <!-- Recipes will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="scripts/Recipe cook books.js"></script>
+</body>
+</html>

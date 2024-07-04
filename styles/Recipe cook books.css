@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.filter-container {
+    margin-bottom: 20px;
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.recipe-card h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.recipe-card p {
+    margin-bottom: 5px;
+}
+
+.recipe-card .nutrition {
+    font-style: italic;
+    color: #666;
+}
+
+.recipe-card .category {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.recipe-card .ingredients {
+    font-weight: bold;
+}
